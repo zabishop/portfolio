@@ -20,7 +20,7 @@
         Simple. Semantic. <span>Solutions.</span>
     </div>
 </header>
-<nav>
+<nav class="grey-shadow">
     <ul>
         <!--<li>
             <a href="#">about</a>

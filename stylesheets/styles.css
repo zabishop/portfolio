@@ -3,9 +3,27 @@ html, body {
     margin: 0;
     height: auto;
 }
+html {
+    width: 100%;
+    background-color: #999;
+}
+
+body {
+    max-width: 1024px;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    -moz-box-shadow: 0 0 48px orange;
+    -webkit-box-shadow: 0 0 48px orange;
+    box-shadow: 0 0 48px orange
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "gill sans", sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
 }
 
 p {
@@ -17,26 +35,6 @@ a {
     color: black;
     text-decoration: none;
     font-family: "gill sans", sans-serif;
-    margin-left: 5px;
-    margin-right: 5px;
-    /*&:visited {
-      color: #666666;
-    }
-    &:hover {
-      color: orange;
-    }
-    &:active {
-      color: orange;
-    }
-    > img {
-      position: relative;
-      top: 2px;
-    }
-    @include breakpoint(40em) {
-      margin-left: 15px;
-      margin-right: 15px;
-    }*/
-
 }
 
 header {
@@ -64,11 +62,14 @@ header {
     margin-bottom: 1em;
 }
 
-nav {
+nav, footer{
     width: 100%;
     background: #eee;
     padding: 10px 0;
     font-size: 1em;
+}
+
+.grey-shadow {
     -moz-box-shadow: 0 0 12px grey;
     -webkit-box-shadow: 0 0 12px grey;
     box-shadow: 0 0 12px grey;
@@ -78,7 +79,66 @@ nav > ul {
     list-style: none;
     text-align: center;
 }
-nav ul >li {
+
+nav ul > li {
     display: inline-table;
     vertical-align: middle;
+}
+
+nav ul > li a {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.main-content {
+    text-align: center;
+    padding: 1em 0;
+}
+.panel {
+    background: #eeeeee;
+    border: 1px solid #666666;
+    height: 335px;
+    padding-bottom: 5px;
+    width: 300px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    margin: 1em;
+}
+
+.light-grey-shadow {
+    -moz-box-shadow:0 0 12px #ccc;
+    -webkit-box-shadow: 0 0 12px #ccc;
+    box-shadow: 0 0 12px #ccc;
+}
+
+.panel:hover {
+    -moz-box-shadow: 0px 0px 12px orange;
+    -webkit-box-shadow: 0px 0px 12px orange;
+    box-shadow: 0px 0px 12px orange;
+}
+
+.panel > img {
+    width: 300px;
+    height: auto;
+}
+
+
+.panel > h3 {
+    width: 100%;
+    padding: 10px 0;
+    color: #666666;
+    text-align: center;
+    background: #cccccc;
+    border-bottom: 1px solid #666666;
+}
+
+.panel > h4 {
+    color: #666666;
+    text-align: center;
+}
+p {
+    font-size: 1.125em;
+    width: 90%;
+    margin: 0 5%;
 }

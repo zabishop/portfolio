@@ -1,63 +1,32 @@
 <?php
-    include_once("includes/head.php");
+include_once("includes/head.php");
 
 
-
-    include_once("includes/header.php");
+include_once("includes/header.php");
 ?>
 
-
 <div class="main-content">
-    <ul>
-        <?php include_once("includes/panels/lls-panel.php") ?>
-        <?php include_once("includes/panels/paramount-panel.php") ?>
-        <?php include_once("includes/panels/clearXchange-panel.php") ?>
-        <li>
-            <section class="panel">
-                <h3>
-                    STL Brew Review
-                </h3>
-                <img src="images/new/stl_br.jpg">
-                <!--<ul>
-                    <li><h4>Tech Stack:</h4></li>
-                    <li><p>HTML/CSS/JS/XUI/Mustache.js/<br>JSON/PhoneGap/Cordova</p></li>
-                    <li><br></li>
-                    <li><h4>Link:</h4></li>
-                    <li><a href="#">Still in development...</a></li>
-                </ul>-->
-            </section>
-        </li>
-        <li>
-            <section class="panel">
-                <h3>
-                    FIT Apps
-                </h3>
-                <img src="images/new/fit_apps.jpg">
-                <!--<ul>
-                    <li><h4>Tech Stack:</h4></li>
-                    <li><p>HTML/CSS/JS</p></li>
-                    <li><br></li>
-                    <li><h4>Link:</h4></li>
-                    <li><a href="http://freckleintervaltrainer.com/">freckleintervaltrainer.com</a></li>
-                </ul>-->
-            </section>
-        </li>
-        <li>
-            <section class="panel">
-                <h3>
-                    My blog
-                </h3>
-                <img src="images/new/no.jpg">
-                <!--<ul>
-                    <li><h4>Tech Stack:</h4></li>
-                    <li><p>HTML/CSS/JS/WordPress/PHP</p></li>
-                    <li><br></li>
-                    <li><h4>Link:</h4></li>
-                    <li><a href="#">Still in development...</a></li>
-                </ul>-->
-            </section>
-        </li>
-    </ul>
+
+    <h2>Websites</h2>
+
+    <p>The bulk of my work is front-end stuff.</p>
+
+    <p>All are hand</p>
+    <a href="#"><?php include_once("includes/panels/lls-panel.php") ?></a>
+    <a href="#"><?php include_once("includes/panels/paramount-panel.php") ?></a>
+    <a href="#"><?php include_once("includes/panels/fitApps-panel.php") ?></a>
+    <a href="#"><?php include_once("includes/panels/bblb-panel.php") ?></a>
+    <a href="#"><?php include_once("includes/panels/wet-panel.php") ?></a>
+
+    <h2>Mobile</h2>
+    <a href="#"><?php include_once("includes/panels/trainingApp-panel.php") ?></a>
+    <a href="#"><?php include_once("includes/panels/clearXchange-panel.php") ?></a>
+
+    <h2>Personal</h2>
+    <a href="#"><?php include_once("includes/panels/hwa-panel.php") ?></a>
+    <a href="#"><?php include_once("includes/panels/brewReview-panel.php") ?></a>
+    <a href="#"><?php include_once("includes/panels/fmsp-panel.php") ?></a>
+
     <!--<div id="modalOverlay">
         <div id="closeModalButton" onclick="showModal(false)">
             <span>X</span>
