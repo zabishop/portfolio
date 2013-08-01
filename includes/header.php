@@ -22,9 +22,9 @@
 </header>
 <nav class="grey-shadow">
     <ul>
-        <!--<li>
-            <a href="#">about</a>
-        </li>-->
+        <li>
+            <a href="about.php">about</a>
+        </li>
         <li>
             <a href="index.php">projects</a>
         </li>

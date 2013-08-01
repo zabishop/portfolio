@@ -1,6 +1,6 @@
 <section class="panel">
     <h3>
-        STL Brew Review
+        Paramount Apparel
     </h3>
     <img src="images/new/stl_br.jpg">
 </section>

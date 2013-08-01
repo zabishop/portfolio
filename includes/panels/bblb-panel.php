@@ -2,5 +2,5 @@
     <h3>
         Leaderboard API
     </h3>
-    <img src="images/new/no.jpg">
+    <img src="images/under-construction.png">
 </section>

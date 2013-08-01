@@ -5,7 +5,7 @@ html, body {
 }
 html {
     width: 100%;
-    background-color: #999;
+    background-color: orange;
 }
 
 body {
@@ -13,9 +13,9 @@ body {
     display: block;
     margin: 0 auto;
     background: white;
-    -moz-box-shadow: 0 0 48px orange;
-    -webkit-box-shadow: 0 0 48px orange;
-    box-shadow: 0 0 48px orange
+    -moz-box-shadow: 0 0 200px #000;
+    -webkit-box-shadow: 0 0 200px #000;
+    box-shadow: 0 0 200px #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,11 +24,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+h3{
+    font-size: 1.25em;
+    margin-bottom: 1em;
 }
 
 p {
     font-family: "gill sans", sans-serif;
     font-weight: 100;
+    margin-bottom: 1em;
 }
 
 a {
@@ -37,6 +44,9 @@ a {
     font-family: "gill sans", sans-serif;
 }
 
+hr {
+    margin: 0 0 1em 0;
+}
 header {
     background: #cccccc;
     width: 100%;
@@ -65,7 +75,7 @@ header {
 nav, footer{
     width: 100%;
     background: #eee;
-    padding: 10px 0;
+    padding: 1em 0;
     font-size: 1em;
 }
 
@@ -92,7 +102,8 @@ nav ul > li a {
 
 .main-content {
     text-align: center;
-    padding: 1em 0;
+    padding: 1.5em 0;
+    min-height: 600px;
 }
 .panel {
     background: #eeeeee;
@@ -103,7 +114,7 @@ nav ul > li a {
     text-align: center;
     vertical-align: top;
     display: inline-block;
-    margin: 1em;
+    margin: 0 0 1em 1em;
 }
 
 .light-grey-shadow {
@@ -123,10 +134,11 @@ nav ul > li a {
     height: auto;
 }
 
-
-.panel > h3 {
+a .panel h3 {
+    font-size: 1em;
     width: 100%;
     padding: 10px 0;
+    margin: 0;
     color: #666666;
     text-align: center;
     background: #cccccc;
@@ -140,5 +152,14 @@ nav ul > li a {
 p {
     font-size: 1.125em;
     width: 90%;
-    margin: 0 5%;
+    margin: 0 5% 1em 5%;
+}
+
+p > span {
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    font-family: "gill sans", sans-serif;
 }
