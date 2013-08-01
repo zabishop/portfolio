@@ -1,0 +1,84 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "gill sans", sans-serif;
+}
+
+p {
+    font-family: "gill sans", sans-serif;
+    font-weight: 100;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "gill sans", sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    /*&:visited {
+      color: #666666;
+    }
+    &:hover {
+      color: orange;
+    }
+    &:active {
+      color: orange;
+    }
+    > img {
+      position: relative;
+      top: 2px;
+    }
+    @include breakpoint(40em) {
+      margin-left: 15px;
+      margin-right: 15px;
+    }*/
+
+}
+
+header {
+    background: #cccccc;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 40px;
+    font-family: "gill sans", sans-serif;
+}
+
+.header-top, .header-bottom {
+    display: block;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.header-top span, .header-bottom span {
+    color: #ffa500;
+}
+
+.header-bottom {
+    font-size: 1.75em;
+    margin-bottom: 1em;
+}
+
+nav {
+    width: 100%;
+    background: #eee;
+    padding: 10px 0;
+    font-size: 1em;
+    -moz-box-shadow: 0 0 12px grey;
+    -webkit-box-shadow: 0 0 12px grey;
+    box-shadow: 0 0 12px grey;
+}
+
+nav > ul {
+    list-style: none;
+    text-align: center;
+}
+nav ul >li {
+    display: inline-table;
+    vertical-align: middle;
+}
